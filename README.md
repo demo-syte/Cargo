@@ -134,4 +134,7 @@ I've arranged for a Kubernetes CronJob to periodically (like every 5 minutes) ru
 
 My combination of application-level health checks (liveness/readiness probes), monitoring/alerts via Prometheus, and auto-scaling ensures that our asynchronous tasks are managed promptly and efficiently for the Celery application within our EKS cluster.
 
+###Sample Architecture
 
+Here will be the sample underline Three-Tier architecture of Celery App
+![Setup](https://user-images.githubusercontent.com/78690371/140008582-4a4bb976-fff1-47c7-974d-563b5e58c3d3.png)
