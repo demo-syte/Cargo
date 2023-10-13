@@ -136,8 +136,14 @@ My combination of application-level health checks (liveness/readiness probes), m
 
 ### Sample Architecture
 
-Here is the sample  Three-Tier architecture for Celery App
+Here is the sample  Three-Tier architecture for Celery App.
+I replicated each component in a second Availability Zone (AZ2). I also added a Bastion host to the public subnet of AZ2 for secure access to resources in the private subnet of AZ2.
+
+Please note that the diagram I provided is just a conceptual representation. In a real-world setup, I would need to configure security groups, access controls, VPC peering, and other network configurations to ensure the architecture is secure and efficient.
+
 ![Setup](https://user-images.githubusercontent.com/78690371/140008582-4a4bb976-fff1-47c7-974d-563b5e58c3d3.png)
+
+<img src="https://github.com/demo-syte/Cargo/assets/78690371/19130e1f-c24e-4aa5-ac8d-5a5cfdf0e5dd" width="950"/>
 
 ### Disaster Plan for Celery App
 <img src="https://github.com/demo-syte/Cargo/assets/78690371/b69050f4-4056-46ba-9999-3b49e575acde" width="470"/>
