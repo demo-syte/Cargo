@@ -8,6 +8,8 @@ Python-based stack employs the Celery distributed task queue for asynchronous pr
 I've set up modules based on Terraform.
 
 **Directory Structure**:
+
+
 terraform/
 │
 ├── modules/
