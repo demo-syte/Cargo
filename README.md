@@ -136,5 +136,5 @@ My combination of application-level health checks (liveness/readiness probes), m
 
 ### Sample Architecture
 
-Here will be the sample underline Three-Tier architecture of Celery App
+Here is the sample underline Three-Tier architecture of Celery App
 ![Setup](https://user-images.githubusercontent.com/78690371/140008582-4a4bb976-fff1-47c7-974d-563b5e58c3d3.png)
