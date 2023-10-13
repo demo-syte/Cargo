@@ -1,0 +1,6 @@
+name: prometheus-helm
+version: 0.1.0
+description: Helm chart for deploying Prometheus
+
+
+

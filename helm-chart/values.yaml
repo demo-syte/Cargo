@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: celery-image
+  repository: celery-redis-app_v7 #Celery_image
   pullPolicy: IfNotPresent
   tag: "latest"
 
