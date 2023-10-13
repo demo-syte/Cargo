@@ -140,5 +140,9 @@ Here is the sample  Three-Tier architecture for Celery App
 ![Setup](https://user-images.githubusercontent.com/78690371/140008582-4a4bb976-fff1-47c7-974d-563b5e58c3d3.png)
 
 ### Disaster Plan for Celery App
-<img src="https://github.com/demo-syte/Cargo/assets/78690371/61a6da10-35d3-42bd-941e-7a5a5eed9b06" width="470"/>
+<<<<<<< HEAD
+<img src="https://github.com/demo-syte/Cargo/assets/78690371/b69050f4-4056-46ba-9999-3b49e575acde" width="470"/>
+=======
+
+>>>>>>> 9cb9d517ee14d5e4d303ec71a1c4d3e332900134
 
