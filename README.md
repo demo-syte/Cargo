@@ -138,4 +138,5 @@ My combination of application-level health checks (liveness/readiness probes), m
 
 ### Disaster Recovery layout:
 I have used EC2 in diagram but we can assume it as EKS cluster running in two different regions
+
 ![disaster_recovery_plan](disaster_recovery_plan.png)
