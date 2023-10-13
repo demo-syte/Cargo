@@ -135,7 +135,3 @@ I've arranged for a Kubernetes CronJob to periodically (like every 5 minutes) ru
 My combination of application-level health checks (liveness/readiness probes), monitoring/alerts via Prometheus, and auto-scaling ensures that our asynchronous tasks are managed promptly and efficiently for the Celery application within our EKS cluster.
 
 
-
-### Disaster Recovery layout:
-I have used EC2 in diagram but we can assume it as EKS cluster running in two different regions
-![disaster_recovery_plan](disaster_recovery_plan.png)
