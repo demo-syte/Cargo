@@ -31,6 +31,7 @@ terraform/
 
 #### Application & Helm:
 
+```
 helm-chart/
 │
 ├── templates/
