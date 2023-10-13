@@ -136,7 +136,7 @@ My combination of application-level health checks (liveness/readiness probes), m
 
 ### Sample Architecture
 
-Here is the sample  Three-Tier architecture for Celery App.
+Here is the sample Three-Tier architecture for Celery App.
 I replicated each component in a second Availability Zone (AZ2). I also added a Bastion host to the public subnet of AZ2 for secure access to resources in the private subnet of AZ2.
 
 Please note that the diagram I provided is just a conceptual representation. In a real-world setup, I would need to configure security groups, access controls, VPC peering, and other network configurations to ensure the architecture is secure and efficient.
