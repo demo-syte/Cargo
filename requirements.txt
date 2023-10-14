@@ -1,3 +1,6 @@
-flask
-celery
-redis
+Flask>=2.0.1
+Jinja2>=3.0
+Celery==5.1.2
+redis==3.5.3
+MarkupSafe==2.0.1
+itsdangerous>=2.0.1
