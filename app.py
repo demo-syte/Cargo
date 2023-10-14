@@ -24,9 +24,19 @@ def memory_leak_task():
         time.sleep(0.1)
 
 @app.route('/', defaults={'path': 'index.html'})
+
 @app.route('/<path:path>')
 def custom_static(path):
     return send_from_directory('static', path)
+
+@app.route('/healthz')
+def health_check():
+    return 'Healthy', 200
+
+@app.route('/ready')
+def readiness_check():
+    return 'Ready', 200
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
