@@ -4,6 +4,9 @@ image:
   repository: celery-redis-app_v7 #Celery_image
   pullPolicy: IfNotPresent
   tag: "latest"
+  
+app:
+  name: celery-app
 
 service:
   type: ClusterIP
