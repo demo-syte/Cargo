@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: localhost:5000/celery-redis-app-v3 #Celery_image
+  repository: celery-redis-app-v3 #Celery_image
   imagePullPolicy: IfNotPresent #Always
   tag: "latest"
 
